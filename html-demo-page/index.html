@@ -6,77 +6,45 @@
         <!-- meta viewport tag needed to make site responsive on mobile devices https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag -->
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <title>WCC Portfolio</title>
+        <title>WCC Portfolio - Demo Page</title>
 
-        <link rel="stylesheet" href="./css/style.css">
+        <!-- including for some global styling -->
+        <link rel="stylesheet" href="../css/style.css">
+        <!-- if I had some styling I wanted to include on one special page -->
+        <link rel="stylesheet" href="css/demo-style.css">
 
     </head>
     <body>
-
+        <!-- if you have sub-pages think about adding a simple back button -->
+        <nav>
+            <a href="../">Back to Home</a>
+        </nav>
         <header>
-            <h1>Yimiao Pan</h1>
-
+            <h1>Draw the Chaos</h1>
+            <p>Term 1 work</p> 
         </header>
 
         <main>
-            <h3>Term 1</h3>
-            <section class="flex-container">
-                <div class="flex-item"> 
-                    <!--<a href="./html-demo-page">
-                        <h4>function-Satisfaction</h4>
-                    </a>-->
-                    <a href="./html-demo-page">
-                        <h4>Draw the Chaos</h4>
-                    </a>
+            <!--<section>
+                <h3>Embed a Vimeo Video</h3>
+                <div class="responsive-video">
+                    <iframe title="vimeo-player" src="https://player.vimeo.com/video/644036051?h=b260a3b1b0" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>
                 </div>
+                <p>Video from this <a href="https://vimeo.com/blog/post/how-to-embed-videos/?s=embed" target="_blank">Vimeo Learn Resource</a></p>
 
-                <div class="flex-item"> 
-                    <a href="https://rebecca-aston.github.io/hypertext-concrete-poetry/">
-                        <h4>function Satisfaction</h4>
-                    </a>
-                </div>
-
+            </section>-->
+            <section>
+                <h3>Pixel based drawing generator</h3>
+                <img id="striped-image" src="../assets/images/chaos.png"/>
+                <!--<p>You can add images into your HTML document (see above), or add them as background images in CSS styling (like on the main page).</p>-->
             </section>
-            
-
-            <h3>Term 2</h3>
-            <section class="flex-container">
-
-                <div class="flex-item"> 
-                    <a href="https://rebecca-aston.github.io/hypertext-concrete-poetry/">
-                        <h4>1. Hypertext Concrete Poem</h4>
-                    </a>
-                </div>
-         
-                <div class="flex-item"> 
-                    <a href="https://rebecca-aston.github.io/simple-responsive-3D/">
-                        <h4>2. Simple Responsive p5 Code Example </h4>
-                    </a>
-                </div>
-
-                <div class="flex-item"> 
-                    <a href="#">
-                        <h4>3.Make or Scrape</h4>
-                    </a>
-                </div>
-
-                <div class="flex-item"> 
-                    <a href="#">
-                        <h4>4.Data Set Two Ways</h4>
-                    </a>
-                </div>
-
-                    <!-- Keep adding per week -->
-
-                
-            </section> 
 
         </main>
-        <footer>
-           <!-- normally information like contact details etc  -->
-           <!-- read more about semantic HTML https://www.w3schools.com/html/html5_semantic_elements.asp -->
-           
-        </footer>
 
+        <footer>
+            <!-- normally information like contact details etc  -->
+            <!-- read more about semantic HTML https://www.w3schools.com/html/html5_semantic_elements.asp -->
+            
+         </footer>
     </body>
 </html>
